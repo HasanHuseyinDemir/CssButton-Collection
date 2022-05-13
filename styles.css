@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(56, 56, 56);
+  color: white;
+}
+button {
+  margin: 4px;
+}
+#neonYellow {
+  font-size: 24px;
+  color: white;
+  border: solid 4px black;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  background-color: rgba(134, 0, 0, 0);
+  cursor: pointer;
+
+  transition: 0.5s ease-in-out;
+}
+#neonYellow:hover {
+  box-shadow: 0 0 12px greenyellow, 0 0 14px yellow;
+  color: yellow;
+  border-color: yellow;
+}
+#neon2 {
+  font-size: 24px;
+  height: auto;
+  width: auto;
+  border: none;
+  background-color: rgba(94, 0, 0, 0);
+  color: white;
+  box-shadow: 0 0 8px rgb(255, 230, 0), 0 0 12px rgba(255, 65, 65, 0.459);
+  padding: 10px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#neon2:hover {
+  box-shadow: 0 0 2px rgb(255, 251, 0), 0 0 2px rgba(255, 65, 65, 0.459);
+}
+#cartoon {
+  font-size: 24px;
+  border: solid;
+  width: auto;
+  height: auto;
+  background-color: orange;
+  font-weight: 700;
+  font-color: rgb(255, 255, 255);
+  padding: 10px;
+  box-shadow: 0 2px 6px rgb(255, 0, 0), 2px 0 6px rgb(255, 251, 0),
+    -2px 0 6px rgb(0, 60, 255), 0 -2px 6px rgb(30, 255, 0);
+  transition: 0.4s;
+}
+#cartoon:hover {
+  box-shadow: 0 0 3px rgb(107, 107, 107);
+  color: white;
+}
